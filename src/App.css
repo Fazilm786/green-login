@@ -1,0 +1,145 @@
+body{
+  background-color:#878787;
+  padding:25px;
+}
+.content{
+  background-color:white;
+  display:flex;
+  height:92vh;
+}
+.left{
+  flex:30%;
+  /* background-color:red; */
+}
+.heading{
+  width:60%;
+  margin-left:85px;
+  margin-top:100px;
+}
+.title{
+  display:flex;
+  color:#2b684d;
+
+}
+h3{
+  font-family: 'Jura', sans-serif;
+}
+.title img{
+  padding:5px 15px 0px 0px;
+}
+h1{
+  color:#1d4a36;
+  font-family: 'Vazirmatn', sans-serif;
+}
+.fontS{
+  font-size:small;
+}
+.fontS p{
+  text-align:justify;
+  color:rgb(77, 72, 72);
+ 
+}
+.fontP{
+  margin-top:-15px;
+}
+.buttonS{
+  padding:10px;
+  border:none;
+  width:85%;
+  background-color:#efefef;
+}
+/* form{
+  display:flex;
+} */
+/* form input img{
+ 
+  display:inline-block;
+} */
+form input{
+  width:180px;
+  background-color:#efefef;
+  border:none;
+  padding:10px;
+}
+.inputs img{
+  padding:7px;
+  position:relative;
+  top:12px;
+}
+
+
+
+
+
+
+.right{
+  flex:70%;
+  background-image:url('./assets/icons/green.jpg');
+  background-size:cover;
+  /* justify-content:center; */
+}
+
+
+.box{
+  /* display:flex; */
+  background-color:#ffffff5b;
+  width:450px;
+  height:450px;
+  color:white;
+  border-radius:25px;
+  border-bottom-left-radius:0px;
+  /* justify-content:center; */
+  justify-content: center;
+  font-size:small;
+  padding:10px 10px 10px 50px;
+  margin-top:100px;
+  margin-left:200px;
+  /* padding:-10px; */
+  /* background-color:red; */
+
+}
+.login-content{
+  /* background-color:yellow; */
+  width:400px;
+  /* padding:30px 20px 20px 20px; */
+}
+
+h4{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:30px;
+}
+
+.login-content input{
+  width:380px;
+  padding:10px;
+  /* margin-top:50px; */
+  margin:10px 0px 10px 0px;
+  border:none;
+  border-radius:50px;
+  border-bottom-right-radius:0px;
+}
+.login-content lable {
+  color:#efefef;
+}
+.login-content p{
+  color:#efefef;
+}
+.butt{
+  background-color:#1d4a36;
+  width:100%;
+  padding:10px;
+  /* margin:10px; */
+  color:white;
+  border:none;
+  border-radius:50px;
+  border-bottom-right-radius:0px;
+}
+a{
+  color:#1d4a36;
+  text-decoration:none;
+
+}
+.aLink{
+  float:right;
+}
